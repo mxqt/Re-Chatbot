@@ -1,0 +1,56 @@
+* {
+  font-family: Courier;
+  font-size: 13pt;
+  color: #264617;
+  background-color: #F0EFED;
+}
+
+
+.logo {
+  position: fixed;
+  left: 25px;
+  top: 20px;
+  width: 100px;
+}
+
+.chat {
+  width: 50vw;
+  display: block;
+  float: right;
+  overflow: scroll;
+}
+
+.actions {
+  position: fixed;
+  bottom: 5px;
+  display: block;
+  width: 100%;
+}
+
+.actions input{
+  height: 30px;
+  display: block;
+  width: 100%;
+  outline: 0;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+}
+
+.messages div {
+  max-width: 60%;
+  display: block;
+  margin: 5px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.messages .bot {
+  text-align: left;
+  margin-right: auto;
+}
+
+.messages .self {
+  text-align: right;
+  margin-left: auto;
+}
